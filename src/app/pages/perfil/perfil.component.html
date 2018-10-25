@@ -1,0 +1,23 @@
+<div class="example-container">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar><mat-icon>account_box</mat-icon></div>
+            
+            <mat-card-title>Perfil</mat-card-title>
+            <mat-card-subtitle>Detalles</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-divider></mat-divider>
+            <br/>
+            <h3>Usuario: {{usuario}}</h3>
+            <br/>
+            <h5>Roles: {{roles.toString()}}</h5>
+            <br/>
+        </mat-card-content>
+        <mat-card-actions>
+            <mat-divider></mat-divider>
+            <button mat-button color="accent" (click)="cerrar()">Cerrar</button>
+        </mat-card-actions>
+    </mat-card>
+
+</div>
